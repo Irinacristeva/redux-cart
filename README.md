@@ -1,4 +1,4 @@
- Redux Cart — Лабораторная работа №6
+## Redux Cart — Лабораторная работа №6
 
 ## Описание
 Интернет-магазин с корзиной, реализованной с помощью **Redux Toolkit** и **RTK Query**.  
@@ -28,18 +28,8 @@
 - Восстановление корзины при загрузке страницы
 
 ## Структура проекта
-src/
-├── api/ # RTK Query API (productsApi.js)
-├── components/ # Header, ProductCard, ProductList
-├── pages/ # CartPage
-├── store/ # Redux store и слайсы
-│ ├── cart/
-│ │ ├── slice.js
-│ │ └── actions.js
-│ └── store.js
-├── App.jsx
-├── main.jsx
-├── index.css
+![image](https://github.com/user-attachments/assets/8c1bc710-b86e-4bad-b840-7fe7a99d9d2a)
+
 
 
 
@@ -49,22 +39,23 @@ src/
 1. Установить зависимости:
 ```bash
 npm install
+```
 Запустить локальный сервер:
 
-bash
-
+```bash
 npm run dev
+```
 Перейти в браузере по адресу:
 
-arduino
 http://localhost:5173
- MockAPI
+
 Используется публичный MockAPI:
 https://6848a7afec44b9f3494193f5.mockapi.io/products
 
  Скриншот интерфейса
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/41e679ff-fb5c-49a2-be8b-213bfc014b69)
+
 
 ✅ Выполненные задания
  Настройка Redux Toolkit Store
